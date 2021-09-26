@@ -47,7 +47,7 @@ Rare.MouseButton1Down:connect(function()
 		local obj = v
 		if string.find(obj.Name, "Chest3") then
 			hrp.CFrame = obj.CFrame + Vector3.new(0,4,0)
-			wait(0.2)
+			wait(0.4)
 		end
 	end
 	print("Teleporting all chests.")
@@ -70,7 +70,7 @@ Common.MouseButton1Down:connect(function()
 		local obj = v
 		if string.find(obj.Name, "Chest1") then
 			hrp.CFrame = obj.CFrame + Vector3.new(0,4,0)
-			wait(0.2)
+			wait(0.4)
 		end
 	end
 	print("Teleporting all chests.")
@@ -93,7 +93,7 @@ Uncommon.MouseButton1Down:connect(function()
 		local obj = v
 		if string.find(obj.Name, "Chest2") then
 			hrp.CFrame = obj.CFrame + Vector3.new(0,4,0)
-			wait(0.2)
+			wait(0.4)
 		end
 	end
 	print("Teleporting all chests.")
